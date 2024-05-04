@@ -48,14 +48,14 @@ public class Test
             j++;
         }
         System.out.println("Nella porta A");
-        System.out.println("Lunghezza media in Buffer 3 (maggior Priorità): "+sommaCodaA[2]/time);
+        System.out.println("Lunghezza media in Buffer 3 (Priorità massima): "+sommaCodaA[2]/time);
         System.out.println("Lunghezza media in Buffer 2: "+sommaCodaA[1]/time);
-        System.out.println("Lunghezza media in Buffer 1 (minor Priorità): "+sommaCodaA[0]/time);
+        System.out.println("Lunghezza media in Buffer 1 (Priorità minima): "+sommaCodaA[0]/time);
 
         System.out.println("Nella porta B");
-        System.out.println("Lunghezza media in Buffer 3 (maggior Priorità): "+sommaCodaB[2]/time);
+        System.out.println("Lunghezza media in Buffer 3 (Priorità Massima): "+sommaCodaB[2]/time);
         System.out.println("Lunghezza media in Buffer 2: "+sommaCodaB[1]/time);
-        System.out.println("Lunghezza media in Buffer 1 (minor Priorità): "+sommaCodaB[0]/time);
+        System.out.println("Lunghezza media in Buffer 1 (Priorità Minima): "+sommaCodaB[0]/time);
 
     }
 }
